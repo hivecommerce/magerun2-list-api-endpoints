@@ -12,11 +12,14 @@ jobs:
       matrix:
         operating-system: ['ubuntu-latest']
         php-versions: ['7.4']
-        coveralls: [false]
+        magento: ['2.3.7-p2', '2.4.0', '2.4.1', '2.4.2', '2.4.3']
+        coveralls: [ false ]
         include:
           - operating-system: 'ubuntu-latest'
             php-versions: '7.4'
+            magento: '2.4.3'
             coveralls: true
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -25,12 +28,32 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
-          tools: composer:v1
+          tools: composer:v2
           coverage: xdebug
           extensions: bcmath, gd
 
       - name: Install Composer dependencies
         run: composer install
+
+      - name: Install Magento 2.3.7-p2
+        if: matrix.magento == '2.3.7-p2'
+        run: composer update --with-dependencies magento/framework:102.0.7-p2 magento/module-webapi:100.4.0 infection/infection:0.22.0
+
+      - name: Install Magento 2.4.0
+        if: matrix.magento == '2.4.0'
+        run: composer update --with-dependencies magento/framework:103.0.0 magento/module-webapi:100.4.0 infection/infection:0.22.0
+
+      - name: Install Magento 2.4.1
+        if: matrix.magento == '2.4.1'
+        run: composer update --with-dependencies magento/framework:103.0.1 magento/module-webapi:100.4.0 infection/infection:0.22.0
+
+      - name: Install Magento 2.4.2
+        if: matrix.magento == '2.4.2'
+        run: composer update --with-dependencies magento/framework:103.0.2 magento/module-webapi:100.4.1
+
+      - name: Install Magento 2.4.3
+        if: matrix.magento == '2.4.3'
+        run: composer update --with-dependencies magento/framework:103.0.3 magento/module-webapi:100.4.2
 
       - name: Install Magerun
         if: matrix.coveralls == false
@@ -47,10 +70,11 @@ jobs:
         run: composer analyze
 
       - name: Unittests
-        if: matrix.coveralls == false
         run: composer test
+        if: matrix.coveralls == false
 
       - name: Infection for added files
+        if: matrix.coveralls == true
         env:
           INFECTION_BADGE_API_KEY: ${{ secrets.INFECTION_BADGE_API_KEY }}
         run: |
