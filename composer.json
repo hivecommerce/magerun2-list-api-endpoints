@@ -39,6 +39,9 @@
     "roave/security-advisories": "dev-latest",
     "squizlabs/php_codesniffer": "^3.6.1"
   },
+  "conflict": {
+    "bitexpert/magerun2-list-api-endpoints": "*"
+  },
   "repositories": [
     {
       "type": "composer",
