@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace BitExpert\Magento\ListApiEndpoints\Command;
+namespace HiveCommerce\Magento\ListApiEndpoints\Command;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use RuntimeException;

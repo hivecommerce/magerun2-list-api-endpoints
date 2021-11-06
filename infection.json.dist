@@ -14,7 +14,7 @@
         "@default": true,
         "ProtectedVisibility": {
             "ignore": [
-                "BitExpert\\Magento\\ListApiEndpoints\\Command\\ListApiEndpoints::getDefinedServices"
+                "HiveCommerce\\Magento\\ListApiEndpoints\\Command\\ListApiEndpoints::getDefinedServices"
             ]
         }
     }

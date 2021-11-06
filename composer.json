@@ -1,11 +1,11 @@
 {
-  "name": "bitexpert/magerun2-list-api-endpoints",
+  "name": "hivecommerce/magerun2-list-api-endpoints",
   "description": "Plugin for netz98 Magerun2 to list all API endpoints",
   "keywords": [
     "n98-magerun2", "magerun2"
   ],
   "prefer-stable": true,
-  "homepage": "https://github.com/bitExpert/magerun2-list-api-endpoints",
+  "homepage": "https://github.com/hivecommerce/magerun2-list-api-endpoints",
   "license": "Apache-2.0",
   "authors": [
     {
@@ -47,12 +47,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "BitExpert\\Magento\\ListApiEndpoints\\": "src/BitExpert/Magento/ListApiEndpoints"
+      "HiveCommerce\\Magento\\ListApiEndpoints\\": "src/HiveCommerce/Magento/ListApiEndpoints"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BitExpert\\Magento\\ListApiEndpoints\\": "tests/BitExpert/Magento/ListApiEndpoints"
+      "HiveCommerce\\Magento\\ListApiEndpoints\\": "tests/HiveCommerce/Magento/ListApiEndpoints"
     }
   },
   "scripts": {

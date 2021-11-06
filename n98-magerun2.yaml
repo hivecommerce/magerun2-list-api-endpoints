@@ -1,6 +1,6 @@
 autoloaders:
-  BitExpert\Magento\ListApiEndpoints: %module%/src
+  HiveCommerce\Magento\ListApiEndpoints: %module%/src
 
 commands:
   customCommands:
-    - BitExpert\Magento\ListApiEndpoints\Command\ListApiEndpoints
+    - HiveCommerce\Magento\ListApiEndpoints\Command\ListApiEndpoints

@@ -7,7 +7,7 @@ read/subscribe to the following resources:
 
  -  [The PSR-2 Coding Standard](http://www.php-fig.org/psr/psr-2/)
 
-If you are working on new features or refactoring [create a proposal](https://github.com/bitExpert/magerun2-list-api-endpoints/issues/new).
+If you are working on new features or refactoring [create a proposal](https://github.com/hivecommerce/magerun2-list-api-endpoints/issues/new).
 
 ## Reporting Potential Security Issues
 
@@ -32,7 +32,7 @@ To run tests:
 1. Clone the repository:
 
 ```console
-$ git clone git@github.com:bitExpert/magerun2-list-api-endpoints.git
+$ git clone git@github.com:hivecommerce/magerun2-list-api-endpoints.git
 $ cd magerun2-list-api-endpoints
 ```
 
@@ -79,11 +79,11 @@ Your first step is to establish a public repository from which we can pull your 
 We recommend using [GitHub](https://github.com), as that is where the component is already hosted.
 
 1. Setup a [GitHub account](http://github.com/), if you haven't yet
-2. Fork the repository (https://github.com/bitExpert/magerun2-list-api-endpoints)
+2. Fork the repository (https://github.com/hivecommerce/magerun2-list-api-endpoints)
 3. Clone the canonical repository locally and enter it.
 
 ```console
-$ git clone git@github.com:bitExpert/magerun2-list-api-endpoints.git
+$ git clone git@github.com:hivecommerce/magerun2-list-api-endpoints.git
 $ cd magerun2-list-api-endpoints
 ```
 
@@ -158,7 +158,7 @@ Before sending a PR, run `composer.phar validate && composer.phar check`, as the
 When you’ve done that, and you’re reading to send one, you have two options:
 
 1. If using GitHub, you can do the pull request from there.
-Navigate to your repository, select the branch you just created, and then select the "Pull Request" button in the upper right. Select the user/organization "bitExpert" as the recipient.
+Navigate to your repository, select the branch you just created, and then select the "Pull Request" button in the upper right. Select the user/organization "hivecommerce" as the recipient.
 
 2. If using your own repository - or even if using GitHub - you can use `git format-patch` to create a patchset for us to apply; in fact, this is **recommended** for security-related patches.
 

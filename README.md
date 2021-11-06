@@ -2,17 +2,17 @@
 
 This is a plugin for [netz98 Magerun2](https://github.com/netz98/n98-magerun2) to list all API endpoints.
 
-[![Build Status](https://github.com/bitExpert/magerun2-list-api-endpoints/workflows/ci/badge.svg?branch=master)](https://github.com/bitExpert/magerun2-list-api-endpoints)
-[![Coverage Status](https://coveralls.io/repos/github/bitExpert/magerun2-list-api-endpoints/badge.svg?branch=master)](https://coveralls.io/github/bitExpert/magerun2-list-api-endpoints?branch=master)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/bitExpert/magerun2-list-api-endpoints/master)](https://infection.github.io)
+[![Build Status](https://github.com/hivecommerce/magerun2-list-api-endpoints/workflows/ci/badge.svg?branch=master)](https://github.com/hivecommerce/magerun2-list-api-endpoints)
+[![Coverage Status](https://coveralls.io/repos/github/hivecommerce/magerun2-list-api-endpoints/badge.svg?branch=master)](https://coveralls.io/github/hivecommerce/magerun2-list-api-endpoints?branch=master)
+[![Infection MSI](https://badge.stryker-mutator.io/github.com/hivecommerce/magerun2-list-api-endpoints/master)](https://infection.github.io)
 
 ## Installation
 
-The preferred way of installing `bitexpert/magerun2-list-api-endpoints` is through Composer.
-Simply add `bitexpert/magerun2-list-api-endpoints` as a dev dependency:
+The preferred way of installing `hivecommerce/magerun2-list-api-endpoints` is through Composer.
+Simply add `hivecommerce/magerun2-list-api-endpoints` as a dev dependency:
 
 ```
-composer.phar require --dev bitexpert/magerun2-list-api-endpoints
+composer.phar require --dev hivecommerce/magerun2-list-api-endpoints
 ```
 
 ### Local installation
@@ -28,7 +28,7 @@ mkdir -p  ~/.n98-magerun2/modules
 The next thing to do is to clone the repository in a subdirectory of `~/.n98-magerun2/modules`:
 
 ```
-git clone git@github.com:bitExpert/magerun2-list-api-endpoints.git ~/.n98-magerun2/modules/magerun2-list-api-endpoints
+git clone git@github.com:hivecommerce/magerun2-list-api-endpoints.git ~/.n98-magerun2/modules/magerun2-list-api-endpoints
 ```
 
 ## Usage
