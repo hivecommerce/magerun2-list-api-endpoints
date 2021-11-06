@@ -26,18 +26,18 @@
     "magento/framework": "~102.0.7-p2|~103.0.0|~103.0.1|~103.0.2|~103.0.3"
   },
   "require-dev": {
-    "n98/magerun2": "^4.7.0",
-    "phpunit/phpunit": "^9.5.10",
-    "squizlabs/php_codesniffer": "^3.6.1",
-    "phpstan/phpstan": "^0.12.99",
+    "bitexpert/captainhook-infection": "^0.5.0",
+    "bitexpert/phpstan-magento": "^0.9.0",
     "captainhook/captainhook": "^5.10.4",
     "captainhook/plugin-composer": "^5.3.2",
-    "bitexpert/phpstan-magento": "^0.9.0",
-    "phpstan/extension-installer": "^1.1",
-    "roave/security-advisories": "dev-latest",
     "infection/infection": "0.22.0|^0.25.3",
-    "bitexpert/captainhook-infection": "^0.5.0",
-    "phpstan/phpstan-strict-rules": "^0.12.9"
+    "n98/magerun2": "~4.5.0|~4.7.0",
+    "phpstan/extension-installer": "^1.1",
+    "phpstan/phpstan": "^0.12.99",
+    "phpstan/phpstan-strict-rules": "^0.12.9",
+    "phpunit/phpunit": "^9.5.10",
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.6.1"
   },
   "repositories": [
     {
