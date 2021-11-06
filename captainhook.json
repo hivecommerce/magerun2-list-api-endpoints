@@ -1,4 +1,10 @@
 {
+    "config": {
+        "run-mode": "docker",
+        "run-exec": "./bin/githook",
+        "git-directory": "/var/www/.n98-magerun2/modules/magerun2-list-api-endpoints/.git/",
+        "run-path": "/var/www/.n98-magerun2/modules/magerun2-list-api-endpoints/vendor/bin/captainhook"
+    },
     "commit-msg": {
         "enabled": true,
         "actions": [

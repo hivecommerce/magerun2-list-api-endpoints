@@ -1,0 +1,2 @@
+#!/bin/bash
+bin/cli /var/www/.n98-magerun2/modules/magerun2-list-api-endpoints/vendor/bin/captainhook "$@"
