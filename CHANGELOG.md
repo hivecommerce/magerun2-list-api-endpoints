@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 2.3.0
+
+### Added
+
+- [#2](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/2) Dependency upgrade
+- Transitioned bitexpert/magerun2-list-api-endpoints to hivecommerce/magerun2-list-api-endpoints
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- [#3](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/3) Fix Docker setup issues for development
+
 ## 2.2.0
 
 ### Added
