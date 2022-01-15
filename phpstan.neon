@@ -5,5 +5,4 @@ parameters:
     paths:
         - src/HiveCommerce
         - tests/HiveCommerce
-    bootstrapFiles:
-            - vendor/bitexpert/phpstan-magento/autoload.php
+
