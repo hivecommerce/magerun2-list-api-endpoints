@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 2.4.0
+
+### Added
+
+- [#60](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/60) Make module compatible with Magento 2.4.4
+- [#50](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/50) Bump phpunit/phpunit to 9.5.20
+- [#47](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/47) Bump guzzlehttp/psr7 to 1.8.5
+- [#45](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/45) Bump bitexpert/phpstan-magento to 0.19.0
+- [#39](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/39) Bump infection/infection to 0.26.6
+- [#38](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/38) Bump captainhook/captainhook to 5.10.8
+- [#30](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/30) Bump twig/twig to 3.3.8
+- [#26](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/26) Bump captainhook/plugin-composer to 5.3.3
+- [#11](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/11) Bump n98/magerun2 to 4.9.1
+- [#7](https://github.com/hivecommerce/magerun2-list-api-endpoints/pull/7) Bump squizlabs/php_codesniffer to 3.6.2
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.3.0
 
 ### Added
