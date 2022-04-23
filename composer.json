@@ -21,23 +21,22 @@
     }
   ],
   "require": {
-    "php": "~7.4.0|~8.0.0",
-    "magento/module-webapi": "~100.3.6-p2|~100.4.0|~100.4.1|~100.4.2",
-    "magento/framework": "~102.0.7-p2|~103.0.0|~103.0.1|~103.0.2|~103.0.3"
+    "php": "~7.4.0|~8.0.0|~8.1.0",
+    "magento/module-webapi": "~100.3.6-p2|~100.4.0|~100.4.1|~100.4.2|~100.4.3",
+    "magento/framework": "~102.0.7-p2|~103.0.0|~103.0.1|~103.0.2|~103.0.3|~103.0.4"
   },
   "require-dev": {
-    "bitexpert/captainhook-infection": "^0.5.0",
-    "bitexpert/phpstan-magento": "^0.19.0",
-    "captainhook/captainhook": "^5.10.4",
-    "captainhook/plugin-composer": "^5.3.2",
-    "infection/infection": "0.22.0|^0.26.1",
-    "n98/magerun2": "^4.5.0|^4.9.1",
+    "bitexpert/captainhook-infection": "^0.6.0",
+    "bitexpert/phpstan-magento": "^0.20.0",
+    "captainhook/captainhook": "^5.10.8",
+    "captainhook/plugin-composer": "^5.3.3",
+    "infection/infection": "0.22.0|^0.26.6",
+    "n98/magerun2": "^4.5.0|^4.9.1|^5.0.1",
     "phpstan/extension-installer": "^1.1",
-    "phpstan/phpstan": "^1.4",
+    "phpstan/phpstan": "^1.5.4",
     "phpstan/phpstan-strict-rules": "^1.1",
-    "phpunit/phpunit": "^9.5.10",
-    "roave/security-advisories": "dev-latest",
-    "squizlabs/php_codesniffer": "^3.6.1"
+    "phpunit/phpunit": "^9.5.20",
+    "squizlabs/php_codesniffer": "^3.6.2"
   },
   "conflict": {
     "bitexpert/magerun2-list-api-endpoints": "*"
@@ -71,6 +70,11 @@
     "coverage": "vendor/bin/phpunit --coverage-clover clover.xml"
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "infection/extension-installer": true,
+      "captainhook/plugin-composer": true,
+      "phpstan/extension-installer": true
+    }
   }
 }

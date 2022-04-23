@@ -56,6 +56,10 @@ class ListApiEndpointsUnitTest extends TestCase
 
         $outputFormatter = $this->createMock(OutputFormatterInterface::class);
         $this->input = $this->createMock(InputInterface::class);
+        $this->input->expects(self::any())
+            ->method('hasParameterOption')
+            ->with('--skip-config')
+            ->willReturn(false);
         $this->output = $this->createMock(OutputInterface::class);
         $this->output->expects(self::any())
             ->method('getFormatter')
