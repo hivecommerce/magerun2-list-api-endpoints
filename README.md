@@ -2,9 +2,9 @@
 
 This is a plugin for [netz98 Magerun2](https://github.com/netz98/n98-magerun2) to list all API endpoints.
 
-[![Build Status](https://github.com/hivecommerce/magerun2-list-api-endpoints/workflows/ci/badge.svg?branch=master)](https://github.com/hivecommerce/magerun2-list-api-endpoints)
-[![Coverage Status](https://coveralls.io/repos/github/hivecommerce/magerun2-list-api-endpoints/badge.svg?branch=master)](https://coveralls.io/github/hivecommerce/magerun2-list-api-endpoints?branch=master)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/hivecommerce/magerun2-list-api-endpoints/master)](https://infection.github.io)
+[![Build Status](https://github.com/hivecommerce/magerun2-list-api-endpoints/workflows/ci/badge.svg?branch=main)](https://github.com/hivecommerce/magerun2-list-api-endpoints)
+[![Coverage Status](https://coveralls.io/repos/github/hivecommerce/magerun2-list-api-endpoints/badge.svg?branch=main)](https://coveralls.io/github/hivecommerce/magerun2-list-api-endpoints?branch=main)
+[![Infection MSI](https://badge.stryker-mutator.io/github.com/hivecommerce/magerun2-list-api-endpoints/main)](https://infection.github.io)
 
 ## Installation
 
