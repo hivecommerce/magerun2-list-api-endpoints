@@ -4,7 +4,7 @@ This is a plugin for [netz98 Magerun2](https://github.com/netz98/n98-magerun2) t
 
 [![Build Status](https://github.com/hivecommerce/magerun2-list-api-endpoints/workflows/ci/badge.svg?branch=main)](https://github.com/hivecommerce/magerun2-list-api-endpoints)
 [![Coverage Status](https://coveralls.io/repos/github/hivecommerce/magerun2-list-api-endpoints/badge.svg?branch=main)](https://coveralls.io/github/hivecommerce/magerun2-list-api-endpoints?branch=main)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/hivecommerce/magerun2-list-api-endpoints/main)](https://infection.github.io)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/109408681246972700?domain=https://rheinneckar.social)
 
 ## Installation
 
